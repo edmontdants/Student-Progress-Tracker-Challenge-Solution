@@ -1,4 +1,4 @@
-# Student Progress Tracker – Backend Solution
+# 🎓 Student Progress Tracker - Backend Challenge
 
 A modular, scalable backend API to track student progress and analytics, built with **Clean Architecture**, **CQRS**, and **MediatR**.
 
@@ -28,7 +28,7 @@ dotnet run --project src/StudentProgress.API
 
 ---
 
-## Security
+## 🛡 Security
 
 - JWT authentication & role-based authorization
 - HTTPS enforced
@@ -37,7 +37,7 @@ dotnet run --project src/StudentProgress.API
 
 ---
 
-## Performance Optimizations
+## ⚡ Performance Optimizations
 
 - Paging, filtering & sorting in repositories
 - `AsNoTracking()` for read-only queries
@@ -47,18 +47,18 @@ dotnet run --project src/StudentProgress.API
 
 ---
 
-## Integration
+## 🔗 Enterprise Integration
 
 - OpenAPI / Swagger for documentation
 - CSV export endpoints
 
 ---
 
-## Scalability & Deployment
-
+## 📈 Scalability & Deployment
+- Docker-ready, deployable to Kubernetes / Swarm
 - Stateless design → horizontal scaling
 - Config per environment via `appsettings.json`
-- CI/CD friendly: migrations & seeding automated
+- CI/CD friendly: migrations & seeding are automated
 
 ---
 
@@ -72,7 +72,7 @@ dotnet run --project src/StudentProgress.API
 
 ## 🤖 AI & Prompt Engineering
 
-- ChatGPT assisted code scaffolding:
+- ChatGPT-assisted code scaffolding:
   - test classes, docs
 - Iterative prompts to match Clean Architecture
 - AI-assisted README & docs
