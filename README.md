@@ -1,5 +1,5 @@
 ## 🚀 Getting Started
-```bash
+```
 dotnet restore
 dotnet ef database update --project src/StudentProgress.Infrastructure
 dotnet run --project src/StudentProgress.API
