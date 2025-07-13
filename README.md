@@ -11,7 +11,7 @@ A modular, scalable backend API to track student progress and analytics, built w
 
 ---
 
-## Architecture Overview
+## 📐 Architecture Overview
 
 - **Clean Architecture / Onion Architecture**:
   - `Domain` – business entities, rules (persistence-agnostic)
