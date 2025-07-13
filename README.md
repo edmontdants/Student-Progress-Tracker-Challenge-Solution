@@ -4,6 +4,7 @@ dotnet restore
 dotnet ef database update --project src/StudentProgress.Infrastructure
 dotnet run --project src/StudentProgress.API
 ```
+
 # Student Progress Tracker – Backend Solution
 
 A modular, scalable backend API to track student progress and analytics, built with **Clean Architecture**, **CQRS**, and **MediatR**.
