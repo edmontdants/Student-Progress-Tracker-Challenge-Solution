@@ -53,11 +53,14 @@ dotnet run --project src/StudentProgress.API
 - CSV export endpoints
 
 ---
+
 ## 📈 Scalability & Deployment
+
 - Docker-ready, deployable to Kubernetes / Swarm
 - Stateless design → horizontal scaling
 - Config per environment via `appsettings.json`
 - CI/CD friendly: migrations & seeding are automated
+
 ---
 
 ## Testing
