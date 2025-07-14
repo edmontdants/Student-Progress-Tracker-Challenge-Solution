@@ -30,7 +30,7 @@ dotnet run --project src/StudentProgress.API
 
 ## 🛡 Security
 
-- JWT authentication & role-based authorization
+- Authentication & role-based Authorization
 - HTTPS enforced
 - Parameterized queries (EF Core) to prevent SQL injection
 - `TrustServerCertificate=True` used **only in dev**
